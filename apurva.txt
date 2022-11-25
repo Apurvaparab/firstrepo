@@ -1,4 +1,18 @@
 hello this apurva parab
 hii ishwar dharme here
+<<<<<<< HEAD
 Hey Aniket here
 Hello everyone
+=======
+<<<<<<< HEAD
+hello snehal here 
+hi apurva how are you....!
+=======
+Hey Aniket here
+>>>>>>> 5981fa34d2593debca8fe2857890348d2bd3efcd
+hii snehal here
+
+
+hie apurva here 
+need to add pritam
+>>>>>>> e85cb9acead967a7730ca0cb2cc593296271f37c
