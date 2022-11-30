@@ -17,4 +17,10 @@ hie apurva here
 need to add pritam
 >>>>>>> e85cb9acead967a7730ca0cb2cc593296271f37c
 
+<<<<<<< HEAD
 Hello pritam...!
+Hey
+=======
+Hey Pritam...!
+hello everyone !!
+>>>>>>> 5f0e47ed6151f02217ca9e721c66aaf9979dec40
