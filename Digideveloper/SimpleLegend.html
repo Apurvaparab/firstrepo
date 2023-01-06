@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        .block{
+				border : 1px solid black;
+				margin-top : 200px;
+				margin-left : 500px;
+				padding : 50px;
+				width : 350px;
+			}
+        .legend{
+            font-size: 30px;
+            }
+        .id{
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+        .pass{
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        #btn{
+            padding-top: 10px;
+            position: absolute;
+            
+           
+            transition: all 0.5s;
+        }
+
+    </style>
+
+</head>
+<body>
+   <div class="block">
+    <div align="center" class="legend"><b>Legend form</b></div>
+    <div class="id" id="nm">Enter Id</div>
+    <div><input type="text" placeholder="Enter Id"></div>
+    <div class="pass" id="nm" required>Enter Confirm Pass</div>
+    <div><input type="text" placeholder="Enter Password" required></div>
+    <div id="btn" ><button>Submit</button></div>
+   </div>
+   <script>
+    var a=document.getElementById("nm").value;
+    var b=document.getElementById("nm").value;
+
+    $('#btn').mousemove(function() {
+      $(this).css({
+        left: '55%'
+      });
+    });
+    $('#btn').click(function() {
+      $(this).css({
+        left: '37%'
+      });
+    });
+  </script>
+</body>
+</html>
